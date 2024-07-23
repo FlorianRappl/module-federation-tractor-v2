@@ -26,6 +26,7 @@ jobs:
         run: |
           ./build.sh
           echo "module-federation-tractor-v2.florian-rappl.de" > dist/CNAME
+          echo "." > dist/.nojekyll
           cp dist/index.html dist/404.html
       - name: Deploy Website
         run: |
