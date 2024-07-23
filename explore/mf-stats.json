@@ -1,0 +1,229 @@
+{
+  "id": "explore",
+  "name": "explore",
+  "metaData": {
+    "name": "explore",
+    "type": "app",
+    "buildInfo": {
+      "buildVersion": "1.0.0",
+      "buildName": "explore"
+    },
+    "remoteEntry": {
+      "name": "remoteEntry.js",
+      "path": "",
+      "type": "global"
+    },
+    "types": {
+      "path": "",
+      "name": "",
+      "zip": "",
+      "api": ""
+    },
+    "globalName": "explore",
+    "pluginVersion": "0.3.1",
+    "publicPath": "auto"
+  },
+  "shared": [
+    {
+      "singleton": true,
+      "requiredVersion": "^18.3.1",
+      "shareScope": "default",
+      "name": "react",
+      "version": "18.3.1",
+      "eager": false,
+      "id": "explore:react",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "540.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": [
+        "./StorePicker",
+        "./CategoryPage",
+        "./Footer",
+        "./Header",
+        "./HomePage",
+        "./Recommendations",
+        "./StoresPage"
+      ]
+    }
+  ],
+  "remotes": [],
+  "exposes": [
+    {
+      "path": "./HomePage",
+      "id": "explore:HomePage",
+      "name": "HomePage",
+      "requires": [
+        "react"
+      ],
+      "file": "src/HomePage.jsx",
+      "assets": {
+        "js": {
+          "sync": [
+            "821.js",
+            "__federation_expose_HomePage.js"
+          ],
+          "async": [
+            "540.js"
+          ]
+        },
+        "css": {
+          "sync": [],
+          "async": []
+        }
+      }
+    },
+    {
+      "path": "./CategoryPage",
+      "id": "explore:CategoryPage",
+      "name": "CategoryPage",
+      "requires": [
+        "react"
+      ],
+      "file": "src/CategoryPage.jsx",
+      "assets": {
+        "js": {
+          "sync": [
+            "821.js",
+            "__federation_expose_CategoryPage.js"
+          ],
+          "async": [
+            "540.js"
+          ]
+        },
+        "css": {
+          "sync": [],
+          "async": []
+        }
+      }
+    },
+    {
+      "path": "./StoresPage",
+      "id": "explore:StoresPage",
+      "name": "StoresPage",
+      "requires": [
+        "react"
+      ],
+      "file": "src/StoresPage.jsx",
+      "assets": {
+        "js": {
+          "sync": [
+            "821.js",
+            "__federation_expose_StoresPage.js"
+          ],
+          "async": [
+            "540.js"
+          ]
+        },
+        "css": {
+          "sync": [],
+          "async": []
+        }
+      }
+    },
+    {
+      "path": "./Recommendations",
+      "id": "explore:Recommendations",
+      "name": "Recommendations",
+      "requires": [
+        "react"
+      ],
+      "file": "src/Recommendations.jsx",
+      "assets": {
+        "js": {
+          "sync": [
+            "821.js",
+            "__federation_expose_Recommendations.js"
+          ],
+          "async": [
+            "540.js"
+          ]
+        },
+        "css": {
+          "sync": [],
+          "async": []
+        }
+      }
+    },
+    {
+      "path": "./Header",
+      "id": "explore:Header",
+      "name": "Header",
+      "requires": [
+        "react"
+      ],
+      "file": "src/Header.jsx",
+      "assets": {
+        "js": {
+          "sync": [
+            "821.js",
+            "__federation_expose_Header.js"
+          ],
+          "async": [
+            "540.js"
+          ]
+        },
+        "css": {
+          "sync": [],
+          "async": []
+        }
+      }
+    },
+    {
+      "path": "./Footer",
+      "id": "explore:Footer",
+      "name": "Footer",
+      "requires": [
+        "react"
+      ],
+      "file": "src/Footer.jsx",
+      "assets": {
+        "js": {
+          "sync": [
+            "821.js",
+            "__federation_expose_Footer.js"
+          ],
+          "async": [
+            "540.js"
+          ]
+        },
+        "css": {
+          "sync": [],
+          "async": []
+        }
+      }
+    },
+    {
+      "path": "./StorePicker",
+      "id": "explore:StorePicker",
+      "name": "StorePicker",
+      "requires": [
+        "react"
+      ],
+      "file": "src/StorePicker.jsx",
+      "assets": {
+        "js": {
+          "sync": [
+            "821.js",
+            "__federation_expose_StorePicker.js"
+          ],
+          "async": [
+            "540.js"
+          ]
+        },
+        "css": {
+          "sync": [],
+          "async": []
+        }
+      }
+    }
+  ]
+}

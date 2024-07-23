@@ -1,0 +1,190 @@
+{
+  "id": "explore",
+  "name": "explore",
+  "metaData": {
+    "name": "explore",
+    "type": "app",
+    "buildInfo": {
+      "buildVersion": "1.0.0",
+      "buildName": "explore"
+    },
+    "remoteEntry": {
+      "name": "remoteEntry.js",
+      "path": "",
+      "type": "global"
+    },
+    "types": {
+      "path": "",
+      "name": "",
+      "zip": "",
+      "api": ""
+    },
+    "globalName": "explore",
+    "pluginVersion": "0.3.1",
+    "publicPath": "auto"
+  },
+  "shared": [
+    {
+      "id": "explore:react",
+      "name": "react",
+      "version": "18.3.1",
+      "singleton": true,
+      "requiredVersion": "^18.3.1",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "540.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    }
+  ],
+  "remotes": [],
+  "exposes": [
+    {
+      "id": "explore:HomePage",
+      "name": "HomePage",
+      "assets": {
+        "js": {
+          "sync": [
+            "821.js",
+            "__federation_expose_HomePage.js"
+          ],
+          "async": [
+            "540.js"
+          ]
+        },
+        "css": {
+          "sync": [],
+          "async": []
+        }
+      },
+      "path": "./HomePage"
+    },
+    {
+      "id": "explore:CategoryPage",
+      "name": "CategoryPage",
+      "assets": {
+        "js": {
+          "sync": [
+            "821.js",
+            "__federation_expose_CategoryPage.js"
+          ],
+          "async": [
+            "540.js"
+          ]
+        },
+        "css": {
+          "sync": [],
+          "async": []
+        }
+      },
+      "path": "./CategoryPage"
+    },
+    {
+      "id": "explore:StoresPage",
+      "name": "StoresPage",
+      "assets": {
+        "js": {
+          "sync": [
+            "821.js",
+            "__federation_expose_StoresPage.js"
+          ],
+          "async": [
+            "540.js"
+          ]
+        },
+        "css": {
+          "sync": [],
+          "async": []
+        }
+      },
+      "path": "./StoresPage"
+    },
+    {
+      "id": "explore:Recommendations",
+      "name": "Recommendations",
+      "assets": {
+        "js": {
+          "sync": [
+            "821.js",
+            "__federation_expose_Recommendations.js"
+          ],
+          "async": [
+            "540.js"
+          ]
+        },
+        "css": {
+          "sync": [],
+          "async": []
+        }
+      },
+      "path": "./Recommendations"
+    },
+    {
+      "id": "explore:Header",
+      "name": "Header",
+      "assets": {
+        "js": {
+          "sync": [
+            "821.js",
+            "__federation_expose_Header.js"
+          ],
+          "async": [
+            "540.js"
+          ]
+        },
+        "css": {
+          "sync": [],
+          "async": []
+        }
+      },
+      "path": "./Header"
+    },
+    {
+      "id": "explore:Footer",
+      "name": "Footer",
+      "assets": {
+        "js": {
+          "sync": [
+            "821.js",
+            "__federation_expose_Footer.js"
+          ],
+          "async": [
+            "540.js"
+          ]
+        },
+        "css": {
+          "sync": [],
+          "async": []
+        }
+      },
+      "path": "./Footer"
+    },
+    {
+      "id": "explore:StorePicker",
+      "name": "StorePicker",
+      "assets": {
+        "js": {
+          "sync": [
+            "821.js",
+            "__federation_expose_StorePicker.js"
+          ],
+          "async": [
+            "540.js"
+          ]
+        },
+        "css": {
+          "sync": [],
+          "async": []
+        }
+      },
+      "path": "./StorePicker"
+    }
+  ]
+}

@@ -1,0 +1,210 @@
+{
+  "id": "checkout",
+  "name": "checkout",
+  "metaData": {
+    "name": "checkout",
+    "type": "app",
+    "buildInfo": {
+      "buildVersion": "1.0.0",
+      "buildName": "checkout"
+    },
+    "remoteEntry": {
+      "name": "remoteEntry.js",
+      "path": "",
+      "type": "global"
+    },
+    "types": {
+      "path": "",
+      "name": "",
+      "zip": "",
+      "api": ""
+    },
+    "globalName": "checkout",
+    "pluginVersion": "0.3.1",
+    "publicPath": "auto"
+  },
+  "shared": [
+    {
+      "singleton": true,
+      "requiredVersion": "^1.9.3",
+      "shareScope": "default",
+      "name": "canvas-confetti",
+      "version": "1.9.3",
+      "eager": false,
+      "id": "checkout:canvas-confetti",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "59.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": [
+        "./Thanks"
+      ]
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^18.3.1",
+      "shareScope": "default",
+      "name": "react",
+      "version": "18.3.1",
+      "eager": false,
+      "id": "checkout:react",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "512.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": [
+        "./AddToCart",
+        "./CartPage",
+        "./Checkout",
+        "./MiniCart",
+        "./Thanks"
+      ]
+    }
+  ],
+  "remotes": [],
+  "exposes": [
+    {
+      "path": "./CartPage",
+      "id": "checkout:CartPage",
+      "name": "CartPage",
+      "requires": [
+        "react"
+      ],
+      "file": "src/CartPage.jsx",
+      "assets": {
+        "js": {
+          "sync": [
+            "__federation_expose_CartPage.js"
+          ],
+          "async": [
+            "512.js"
+          ]
+        },
+        "css": {
+          "sync": [
+            "__federation_expose_CartPage.css"
+          ],
+          "async": []
+        }
+      }
+    },
+    {
+      "path": "./Checkout",
+      "id": "checkout:Checkout",
+      "name": "Checkout",
+      "requires": [
+        "react"
+      ],
+      "file": "src/Checkout.jsx",
+      "assets": {
+        "js": {
+          "sync": [
+            "__federation_expose_Checkout.js"
+          ],
+          "async": [
+            "512.js"
+          ]
+        },
+        "css": {
+          "sync": [
+            "__federation_expose_Checkout.css"
+          ],
+          "async": []
+        }
+      }
+    },
+    {
+      "path": "./Thanks",
+      "id": "checkout:Thanks",
+      "name": "Thanks",
+      "requires": [
+        "react",
+        "canvas-confetti"
+      ],
+      "file": "src/Thanks.jsx",
+      "assets": {
+        "js": {
+          "sync": [
+            "__federation_expose_Thanks.js"
+          ],
+          "async": [
+            "512.js",
+            "59.js"
+          ]
+        },
+        "css": {
+          "sync": [
+            "__federation_expose_Thanks.css"
+          ],
+          "async": []
+        }
+      }
+    },
+    {
+      "path": "./AddToCart",
+      "id": "checkout:AddToCart",
+      "name": "AddToCart",
+      "requires": [
+        "react"
+      ],
+      "file": "src/AddToCart.jsx",
+      "assets": {
+        "js": {
+          "sync": [
+            "__federation_expose_AddToCart.js"
+          ],
+          "async": [
+            "512.js"
+          ]
+        },
+        "css": {
+          "sync": [
+            "__federation_expose_AddToCart.css"
+          ],
+          "async": []
+        }
+      }
+    },
+    {
+      "path": "./MiniCart",
+      "id": "checkout:MiniCart",
+      "name": "MiniCart",
+      "requires": [
+        "react"
+      ],
+      "file": "src/MiniCart.jsx",
+      "assets": {
+        "js": {
+          "sync": [
+            "__federation_expose_MiniCart.js"
+          ],
+          "async": [
+            "512.js"
+          ]
+        },
+        "css": {
+          "sync": [
+            "__federation_expose_MiniCart.css"
+          ],
+          "async": []
+        }
+      }
+    }
+  ]
+}
