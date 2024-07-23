@@ -69,10 +69,10 @@
         }
       },
       "usedIn": [
-        "./MiniCart",
-        "./AddToCart",
         "./CartPage",
+        "./AddToCart",
         "./Checkout",
+        "./MiniCart",
         "./Thanks"
       ]
     }

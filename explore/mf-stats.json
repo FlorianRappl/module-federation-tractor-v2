@@ -45,11 +45,11 @@
         }
       },
       "usedIn": [
-        "./Footer",
+        "./Recommendations",
         "./CategoryPage",
+        "./Footer",
         "./Header",
         "./HomePage",
-        "./Recommendations",
         "./StorePicker",
         "./StoresPage"
       ]
