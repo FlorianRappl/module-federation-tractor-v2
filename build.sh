@@ -2,7 +2,7 @@
 
 cd app
 rm -rf dist
-BASE_URL="http://module-federation-tractor-v2.florian-rappl.de/" npm run build
+BASE_URL="https://module-federation-tractor-v2.florian-rappl.de/" npm run build
 cd ..
 
 cd checkout
@@ -12,7 +12,7 @@ cd ..
 
 cd decide
 rm -rf dist
-BASE_URL="http://module-federation-tractor-v2.florian-rappl.de/decide/" npm run build
+BASE_URL="https://module-federation-tractor-v2.florian-rappl.de/decide/" npm run build
 cd ..
 
 cd explore
