@@ -27,10 +27,9 @@ jobs:
           ./build.sh
           echo "module-federation-tractor-v2.florian-rappl.de" > dist/CNAME
           cp dist/index.html dist/404.html
-          echo "." > dist/.nojekyll
       - name: Deploy Website
         run: |
           git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
-          gh-pages -d "dist" -u "github-actions-bot <support+actions@github.com>"
+          gh-pages -d "dist" --nojekyll -u "github-actions-bot <support+actions@github.com>"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
