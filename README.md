@@ -47,7 +47,7 @@ Several performance optimizations could still be applied, however, in the out-of
 
 ![Lighthouse Score](./lighthouse.png)
 
-As a comparison a most lightweight SSR-only solution using the same codebase would be around 99/100. Another SPA sample that uses [Picard.js](https://picard.js.org/) with Native Federation ended up at 88/100. Hence, Piral gives optimal performance - no effort needed.
+As a comparison a most lightweight SSR-only solution using the same codebase would be around 99/100. Another SPA sample that uses [Picard.js](https://picard.js.org/) with Native Federation ended up at 88/100. Using a full framework like [Piral](https://www.piral.io) (which also includes a much cleaner codebase and a more powerful routing engine) ends up at 100/100, too. Hence, independent if you use only Module Federation or a micro frontend framework like Piral - a good solution should give optimal performance.
 
 ## How to run locally
 
