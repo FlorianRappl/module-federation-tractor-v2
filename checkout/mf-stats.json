@@ -69,8 +69,8 @@
         }
       },
       "usedIn": [
-        "./CartPage",
         "./AddToCart",
+        "./CartPage",
         "./Checkout",
         "./MiniCart",
         "./Thanks"

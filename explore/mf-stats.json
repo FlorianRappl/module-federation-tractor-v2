@@ -45,12 +45,12 @@
         }
       },
       "usedIn": [
-        "./Recommendations",
+        "./StorePicker",
         "./CategoryPage",
         "./Footer",
         "./Header",
         "./HomePage",
-        "./StorePicker",
+        "./Recommendations",
         "./StoresPage"
       ]
     }
