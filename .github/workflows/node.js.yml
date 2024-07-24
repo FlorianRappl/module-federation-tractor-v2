@@ -21,7 +21,7 @@ jobs:
       - name: Install GitHub Pages
         run: |
           npm init -y
-          npm install -g gh-pages@3.0.0
+          npm install -g gh-pages
       - name: Build Website
         run: |
           ./build.sh
