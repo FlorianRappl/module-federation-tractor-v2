@@ -22,7 +22,4 @@ registerRemotes([
   },
 ]);
 
-window.getComponent = (id) =>
-  lazy(() =>
-    loadRemote(id).then((res) => ("default" in res ? res : { default: res }))
-  );
+window.getComponent = (id) => lazy(() => loadRemote(id));
